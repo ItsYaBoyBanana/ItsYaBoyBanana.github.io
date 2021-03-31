@@ -25,7 +25,7 @@ if (!$errors) {
 	$from = $name . ' <' . $email . '>';
 	
 	//subject and the html message
-	$subject = 'Message via Scorilo HTML from ' . $name;	
+	$subject = 'Message via Diba HTML from ' . $name;	
 	$message = 'Name: ' . $name . '<br/><br/>
 		       Email: ' . $email . '<br/><br/>		
 		       Message: ' . nl2br($comment) . '<br/>';
